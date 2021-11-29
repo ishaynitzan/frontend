@@ -1,0 +1,98 @@
+@import url(./helpers.css);
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 100vh;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+.router-link-exact-active {
+  color: #42b983;
+}
+
+.far {
+  font-size: 1rem;
+  margin: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.btn{
+background-color: #f1d57b;
+}
+.btn:hover{
+  cursor: pointer;
+background-color: #97864d;
+}
+
+/* TOY_APP */
+
+.app , .detalis, .edit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1d57b;
+  height: 95vh;
+}
+
+/* LIST */
+
+.toy-list{
+  width: 100%;
+}
+
+.toy-prev {
+  font-size: 1.2rem;
+  width: 90%;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  border-radius: .7rem;
+}
+
+.label{
+  width: 50px;
+  margin: 0 .2rem;
+}
+
+.fieldset{
+  width: 150px;
+  padding: .5rem;
+  height: 5rem;
+}
+
+/* EDIT */
+
+
+/* FILTER */
+.toy-filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 3rem;
+}
+
+.login-logout{
+  background-color: #f1d57b;
+}
+
+
+.login-logout section{
+  display: flex;
+  flex-direction: column;
+}
